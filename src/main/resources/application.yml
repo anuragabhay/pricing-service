@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: pricing-service
+  main:
+    allow-bean-definition-overriding: true
+
+aws:
+  region: us-east-1
+  dynamodb:
+    endpoint: http://localhost:8000
